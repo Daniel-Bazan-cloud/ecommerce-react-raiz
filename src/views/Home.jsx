@@ -173,7 +173,7 @@ const Home = ({ setCantidad, cantidadCarrito }) => {
       <div className="max-w-2xl mx-auto bg-emerald-50 border border-emerald-100 p-6 rounded-2xl text-center shadow-sm">
         <h3 className="text-lg font-bold text-emerald-900 mb-1">Boletín del Viajero</h3>
         <p className="text-xs text-emerald-700 mb-4">
-          Ingresa tu correo para enterarte de ofertas y descuentos exclusivos.
+          Ingresa tu correo para enterarte de ofertas,descuentos exclusivos y mas .
         </p>
         
         <form onSubmit={(e) => { e.preventDefault(); alert("¡Te has suscrito localmente!"); }} className="flex flex-col gap-3 max-w-md mx-auto">
