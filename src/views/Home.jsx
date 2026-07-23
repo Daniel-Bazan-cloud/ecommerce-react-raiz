@@ -132,7 +132,7 @@ const Home = ({ setCantidad, cantidadCarrito }) => {
           {/* Tarjeta: Formulario de Registro de Usuario Lateral */}
           <div className="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
             <h3 className="text-sm font-bold text-slate-800 mb-1">Registro de Usuario</h3>
-            <p className="text-[11px] text-gray-400 mb-4">Únete para gestionar tus reservas de hospedaje.</p>
+            <p className="text-[11px] text-gray-400 mb-4">Únete para gestionar tus reservas.</p>
             
             <form onSubmit={manejarRegistroLateral} className="space-y-3">
               <div>
